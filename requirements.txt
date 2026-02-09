@@ -1,16 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/requirements.txt b/requirements.txt
-index 8c69f031afc9c053d37b49736082e176b9562b07..7240b1f273469dea6848f5fe8e6e517e059c9db7 100644
---- a/requirements.txt
-+++ b/requirements.txt
-@@ -1,2 +1,5 @@
--openai
--streamlit
-+streamlit>=1.36.0
-+openai>=1.40.0
-+spotipy>=2.24.0
-+python-dotenv>=1.0.1
-+pandas>=2.2.2
- 
-EOF
-)
+streamlit>=1.36.0
+openai>=1.40.0
+requests>=2.31.0
+python-dotenv>=1.0.1
